@@ -55,7 +55,8 @@
 				C0FEBFEC2062694B002758EA /* Info.plist */,
 				C0FEBFF320626976002758EA /* MluviiChatLibrary.swift */,
 			);
-			path = MluviiChat;
+			name = MluviiChat;
+			path = Sources/MluviiChat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,7 +275,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MluviiChat/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/MluviiChat/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -300,7 +301,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = MluviiChat/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/MluviiChat/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
